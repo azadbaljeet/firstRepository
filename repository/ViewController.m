@@ -27,12 +27,46 @@
     [label1 setText:@"india is Great Country"];
     [self.view addSubview:label1];
     
-    UILabel   *label3    =   [[UILabel alloc] initWithFrame:CGRectMake(20, 260, 300, 40)];
-    label3.backgroundColor   =   [UIColor redColor];
-    [label3 setText:@"india is Great and large Country"];
-    [self.view addSubview:label3];
+   
     
     
+    int k = 0;
+    while( k < 5 ){
+        printf( "k = %d\n", k++ );
+        printf( "After loop, i = %d\n", k );
+    }
+    
+    int i;
+    for( i=5; i<10; i++){
+        
+        NSLog(@"value is : %d", i);
+        
+    }
+    int j;
+    for(  j=0; j<4; ) {
+        printf("This loop will run forever.\n");
+        j++;
+    }
+    
+    NSLog(@"value is : %d", j);
+    
+    while (i<10) {
+        i++;
+        
+    }
+    
+    NSLog(@"value is : %d", i);
+    float topmargin =   260.0;
+    do{
+        
+        UILabel   *label3    =   [[UILabel alloc] initWithFrame:CGRectMake(20, topmargin, 300, 40)];
+        label3.backgroundColor   =   [UIColor redColor];
+        [label3 setText:@"india is Great and large Country %d"];
+        [self.view addSubview:label3];
+        i++;
+        topmargin=topmargin+ 50.0;
+        NSLog(@"value is : %d", i);
+    }while (i<14);
     
     // Do any additional setup after loading the view, typically from a nib.
 }
