@@ -51,7 +51,7 @@
     int i;
     for( i=5; i<10;){
         
-        NSLog(@"value is : %d", ++i);
+        NSLog(@"I am India and India Is my country : %d", ++i);
         
     }
     int j;
