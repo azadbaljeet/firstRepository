@@ -19,7 +19,7 @@
     
     UILabel   *label    =   [[UILabel alloc] initWithFrame:CGRectMake(20, 64, 300, 40)];
     label.backgroundColor   =   [UIColor redColor];
-    [label setText:@"I am India "];
+    [label setText:@"I am India and India Is my country"];
     [self.view addSubview:label];
     
     
@@ -31,7 +31,7 @@
     
     UILabel   *label2    =   [[UILabel alloc] initWithFrame:CGRectMake(20, 150, 300, 40)];
     label2.backgroundColor   =   [UIColor yellowColor];
-    [label2 setText:@"india jiodfig ,jof s,iofgfs f,dsiogfgfo"];
+    [label2 setText:@"I am India and India Is my country"];
     [self.view addSubview:label2];
     
     UILabel   *label1    =   [[UILabel alloc] initWithFrame:CGRectMake(20, 200, 300, 40)];
