@@ -17,10 +17,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UILabel   *label    =   [[UILabel alloc] initWithFrame:CGRectMake(20, 150, 300, 40)];
+    UILabel   *label    =   [[UILabel alloc] initWithFrame:CGRectMake(20, 64, 300, 40)];
     label.backgroundColor   =   [UIColor redColor];
-    [label setText:@"india jiodfig ,jof s,iofgfs f,dsiogfgfo"];
+    [label setText:@"I am India "];
     [self.view addSubview:label];
+    
+    
+    UILabel   *label4    =   [[UILabel alloc] initWithFrame:CGRectMake(20, 107, 300, 40)];
+    label4.backgroundColor   =   [UIColor redColor];
+    [label4 setText:@"india jiodfig ,jof s,iofgfs f,dsiogfgfo"];
+    [self.view addSubview:label4];
+    
+    
+    UILabel   *label2    =   [[UILabel alloc] initWithFrame:CGRectMake(20, 150, 300, 40)];
+    label2.backgroundColor   =   [UIColor yellowColor];
+    [label2 setText:@"india jiodfig ,jof s,iofgfs f,dsiogfgfo"];
+    [self.view addSubview:label2];
     
     UILabel   *label1    =   [[UILabel alloc] initWithFrame:CGRectMake(20, 200, 300, 40)];
     label1.backgroundColor   =   [UIColor redColor];
@@ -37,9 +49,9 @@
     }
     
     int i;
-    for( i=5; i<10; i++){
+    for( i=5; i<10;){
         
-        NSLog(@"value is : %d", i);
+        NSLog(@"value is : %d", ++i);
         
     }
     int j;
@@ -67,6 +79,13 @@
         topmargin=topmargin+ 50.0;
         NSLog(@"value is : %d", i);
     }while (i<14);
+   
+    
+    UITextField  *text  =   [[UITextField alloc] initWithFrame:CGRectMake(50, 450, 100, 30)];
+    text.backgroundColor    =   [UIColor redColor];
+    [text setTextColor:[UIColor yellowColor]];
+    
+    [self.view addSubview:text];
     
     // Do any additional setup after loading the view, typically from a nib.
 }
