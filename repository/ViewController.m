@@ -60,7 +60,7 @@
         j++;
     }
     
-    NSLog(@"value is : %d", j);
+    NSLog(@"Change for lalit dua : %d", j);
     
     while (i<10) {
         i++;
