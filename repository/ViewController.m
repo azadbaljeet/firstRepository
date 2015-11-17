@@ -39,6 +39,10 @@
     [label1 setText:@"india is Great Country"];
     [self.view addSubview:label1];
     
+    UILabel   *label5    =   [[UILabel alloc] initWithFrame:CGRectMake(20, 250, 300, 40)];
+    label1.backgroundColor   =   [UIColor redColor];
+    [label1 setText:@"welcome baljeet g"];
+    [self.view addSubview:label5];
    
     
     
