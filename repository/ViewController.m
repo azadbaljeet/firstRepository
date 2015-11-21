@@ -38,8 +38,16 @@
     label1.backgroundColor   =   [UIColor redColor];
     [label1 setText:@"india is Great Country"];
     [self.view addSubview:label1];
+    int total=0;
+    int m;
+    for( m=0; m<=10; m+=2){
+                NSLog(@" total addition of even number:%d", m);
+       
+    };
+     NSLog(@" total addition of even number:%d", m);
     
-   
+    
+    
     
     
     int k = 0;
