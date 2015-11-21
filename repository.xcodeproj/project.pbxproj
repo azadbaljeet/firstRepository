@@ -15,6 +15,7 @@
 		1864E2F71BE8D1EB000BE372 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1864E2F61BE8D1EB000BE372 /* Images.xcassets */; };
 		1864E2FA1BE8D1EB000BE372 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1864E2F81BE8D1EB000BE372 /* LaunchScreen.xib */; };
 		1864E3061BE8D1EB000BE372 /* repositoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1864E3051BE8D1EB000BE372 /* repositoryTests.m */; };
+		18E46CEB1C00547F00E2ED6C /* secViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E46CEA1C00547F00E2ED6C /* secViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		1864E2FF1BE8D1EB000BE372 /* repositoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = repositoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1864E3041BE8D1EB000BE372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1864E3051BE8D1EB000BE372 /* repositoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = repositoryTests.m; sourceTree = "<group>"; };
+		18E46CE91C00547F00E2ED6C /* secViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = secViewController.h; path = ../secViewController.h; sourceTree = "<group>"; };
+		18E46CEA1C00547F00E2ED6C /* secViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = secViewController.m; path = ../secViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				1864E2F11BE8D1EB000BE372 /* ViewController.m */,
 				1864E2F31BE8D1EB000BE372 /* Main.storyboard */,
 				1864E2F61BE8D1EB000BE372 /* Images.xcassets */,
+				18E46CEA1C00547F00E2ED6C /* secViewController.m */,
+				18E46CE91C00547F00E2ED6C /* secViewController.h */,
 				1864E2F81BE8D1EB000BE372 /* LaunchScreen.xib */,
 				1864E2ED1BE8D1EB000BE372 /* repository.xcdatamodeld */,
 				1864E2E61BE8D1EB000BE372 /* Supporting Files */,
@@ -225,6 +230,7 @@
 				1864E2EF1BE8D1EB000BE372 /* repository.xcdatamodeld in Sources */,
 				1864E2EC1BE8D1EB000BE372 /* AppDelegate.m in Sources */,
 				1864E2F21BE8D1EB000BE372 /* ViewController.m in Sources */,
+				18E46CEB1C00547F00E2ED6C /* secViewController.m in Sources */,
 				1864E2E91BE8D1EB000BE372 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +428,7 @@
 				1864E30B1BE8D1EB000BE372 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1864E30C1BE8D1EB000BE372 /* Build configuration list for PBXNativeTarget "repositoryTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +437,7 @@
 				1864E30E1BE8D1EB000BE372 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

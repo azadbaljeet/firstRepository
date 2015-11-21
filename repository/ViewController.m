@@ -17,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    UIButton  *button   =   [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    button.frame    =   CGRectMake(20, 500, 250, 50);
+    button.backgroundColor  =   [UIColor grayColor];
+    [button addTarget:self action:@selector(click) forControlEvents:UIControlEventAllTouchEvents];
+    [button setTitle:@"Move" forState:UIControlStateNormal];
+    [self.view addSubview:button];
+    
     UILabel   *label    =   [[UILabel alloc] initWithFrame:CGRectMake(20, 64, 300, 40)];
     label.backgroundColor   =   [UIColor redColor];
     [label setText:@"I am India and India Is my country"];
@@ -38,7 +45,6 @@
     label1.backgroundColor   =   [UIColor redColor];
     [label1 setText:@"india is Great Country"];
     [self.view addSubview:label1];
-    int total=0;
     int m;
     for( m=0; m<=10; m+=2){
                 NSLog(@" total addition of even number:%d", m);
@@ -95,7 +101,17 @@
     
     [self.view addSubview:text];
     
+   
+    
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
+}
+-(void)click{
+    secViewController  *sec =   [[secViewController alloc] init];
+    
+    [self.navigationController pushViewController:sec animated:NO];
+    
 }
 
 - (void)didReceiveMemoryWarning {

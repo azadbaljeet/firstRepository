@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "secViewController.h"
 
 @interface ViewController : UIViewController
 
